@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart AI Bug Tracking System</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React + ReactDOM (UMD builds, no npm/build step needed) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <!-- Babel standalone transpiles our JSX right in the browser -->
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- Socket.io client — served by our own server, so the version always matches -->
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script type="text/babel" src="/app.jsx"></script>
+</body>
+</html>
